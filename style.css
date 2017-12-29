@@ -43,15 +43,19 @@ body{
 	top: 0;
 	background-size: cover;
 	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
 }
 .back{
-	background-image:url('images/');
+	background-image:url('images/zoo.jpg');
+	background-position: 45%;
 }
 .front{
-	background-image:url('images/cow.jpg');
+	background-position: center;
 }
-
-
+.hide{
+	display: none;
+}
 
 
 
