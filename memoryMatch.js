@@ -25,6 +25,7 @@ class MemoryMatchGame{
 	}
 	createCards(imageArray){
 		const totalArray = [...imageArray,...imageArray];
+		this.totalCards = totalArray.length;
 		//let ce = document.createElement;  why won't this work?
 
 		totalArray.forEach(image=>{
