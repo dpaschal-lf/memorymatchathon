@@ -1,0 +1,63 @@
+body{
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	width: 100vw;
+}
+* {
+	box-sizing: border-box;
+}
+#main{
+	height: 100%;
+	width: 100%;
+}
+#stats{
+	height: 100%;
+	width: 15%;
+	float: left;
+}
+#game{
+	height: 100%;
+	width: 85%;
+	float: left;
+}
+
+.cardContainer{
+	width: 16.66%;
+	height: 33%;
+	background-color: lightgreen;
+	position: relative;
+	float: left;
+}
+.card{
+	width: 95%;
+	height: 95%;
+	background-color: pink;
+	position: absolute;
+	left: 2.5%;
+	top: 2.5%;
+}
+.back, .front{
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+}
+.back{
+	background-image:url('images/zoo.jpg');
+	background-position: 45%;
+}
+.front{
+	background-position: center;
+}
+.hide{
+	display: none;
+}
+
+
+
+
+
