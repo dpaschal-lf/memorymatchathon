@@ -11,8 +11,16 @@ const cardImages = [
 ];
 initializeApp();
 
+
+
 function initializeApp(){
-	window.game = new MemoryMatchGame(cardImages, document.querySelector('#game'));
+	const outlets = {
+		game : '#game',
+		'gameCount':'#totalGames',
+		'accuracy':'#accuracy',
+		'matches':'#matches'
+	}
+	window.game = new MMController(cardImages, outlets);
 }
 
 

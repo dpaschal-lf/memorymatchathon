@@ -49,6 +49,7 @@ body{
 .back{
 	background-image:url('images/zoo.jpg');
 	background-position: 45%;
+	opacity: .4;
 }
 .front{
 	background-position: center;
